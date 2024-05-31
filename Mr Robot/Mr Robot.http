@@ -1,0 +1,118 @@
+@Mr_Robot_HostAddress = http://localhost:5191
+
+POST {{Mr_Robot_HostAddress}}/api/addEpisodes/addEpisode/{seasonId}
+Accept: application/json
+
+###
+[
+    {
+        "Id": 1,
+        "OverallNumber": 1,
+        "SeasonNumber": 1,
+        "Title": "eps1.0_hellofriend.mov",
+        "DirectedBy": "Niels Arden Oplev",
+        "WrittenBy": "Sam Esmail",
+        "Description": "Socially inept Elliot Alderson works at cyber security company Allsafe. At night, he hacks social media, personal information, and bank records, including those of his co-workers, therapist, and a drug dealer. Elliot stops a DDoS attack against Allsafe's biggest client, E Corp. He identifies a file labeled fsociety00.dat and a text file asking him not to destroy malware he finds hidden on E Corp's server. Mr. Robot, the mysterious leader of the hacker group fsociety, contacts Elliot on the subway. Fsociety invites Elliot to join them in starting a digital revolution; they plan to delete all debt records held by E Corp. He is intrigued and eventually agrees. As his first collaborative act with fsociety, Elliot provides the Federal Bureau of Investigation (FBI) with an encrypted file falsely implicating Terry Colby, E Corp's chief technology officer (CTO) as the orchestrator of the attack.",
+        "OriginalAirDate": "2015-06-24",
+        "USViewersMillions": 1.75
+    },
+    {
+        "Id": 2,
+        "OverallNumber": 2,
+        "SeasonNumber": 1,
+        "Title": "eps1.1_ones-and-zer0es.mpeg",
+        "DirectedBy": "Sam Esmail",
+        "WrittenBy": "Sam Esmail",
+        "Description": "Elliot declines a job offer from Tyrell Wellick, interim CTO of E Corp. Increasingly paranoid, Elliot uses more morphine than normal. Darlene visits him at home to bring him to fsociety, surprising him. Mr. Robot and fsociety want Elliot to destroy an E Corp offline backup facility called Steel Mountain by hacking an adjacent gas plant and causing an explosion. Elliot backs out because he does not want to risk lives. Shayla is Elliot's drug dealer and friend. When Elliot notices Fernando Vera, Shayla's supplier, abusing her, Elliot collects evidence against Fernando and turns him in to the police, despite Shayla's explicit instructions not to. Meanwhile, Cisco, an unknown associate of the Chinese hacker group The Dark Army, hacks Ollie's home computer with a compact disc (CD). Elliot and Mr. Robot discuss Elliot's falling out with his father: Elliot told his mother of his father's terminal illness, despite promising his father he would keep the illness secret. Mr. Robot pushes Elliot off a railing onto the rock-strewn beach below as punishment for not keeping his father's secret.",
+        "OriginalAirDate": "2015-07-01",
+        "USViewersMillions": 1.73
+    },
+    {
+        "Id": 3,
+        "OverallNumber": 3,
+        "SeasonNumber": 1,
+        "Title": "eps1.2_d3bug.mkv",
+        "DirectedBy": "Jim McKay",
+        "WrittenBy": "Sam Esmail",
+        "Description": "Tyrell is enraged that Scott Knowles was chosen for CTO. To vent his frustration, Tyrell pays a homeless man to allow him to beat him. Cisco demands that Ollie infect Allsafe with the same CD. Elliot believes he is done with fsociety. Tyrell seduces his boss's secretary and installs software on his phone. Attempting to be more normal, Elliot asks Shayla to accompany him to a party; she accepts and they become romantically involved. During the party, fsociety leaks E Corp's emails that incriminate Colby for covering up a toxic waste leak that caused leukemia in Elliot's father and Angela's mother. Ollie confesses both his infidelity and Cisco's demands to Angela. Fearing identity theft, she wants him to infect Allsafe with the CD. Elliot returns to fsociety. Allsafe CEO Gideon Goddard becomes suspicious of Elliot's story regarding the E Corp attack, and begins to investigate.",
+        "OriginalAirDate": "2015-07-08",
+        "USViewersMillions": 1.60
+    },
+    {
+        "Id": 4,
+        "OverallNumber": 4,
+        "SeasonNumber": 1,
+        "Title": "eps1.3_da3m0ns.mp4",
+        "DirectedBy": "Nisha Ganatra",
+        "WrittenBy": "Adam Penn",
+        "Description": "Elliot has a new plan to destroy E Corp's tape back-ups of their data at Steel Mountain involving hacking into their climate control system by connecting a Raspberry Pi to slowly raise the temperature (bypassing the climate control system) to a point where it will destroy the magnetic tape back-ups, but this requires physical access to the heavily fortified data center. Elliot, Romero, Mobley, and Mr. Robot go to Steel Mountain. With his morphine supply cut off, Elliot starts to have serious withdrawal symptoms including multiple hallucinations. Darlene and Trenton stay behind to contact Darlene's ex-boyfriend Cisco and arrange a simultaneous hacker attack by the Dark Army on E Corp's backup sites in China. Meanwhile, Angela and Shayla do ecstasy which results in the two kissing. The next morning, Angela sabotages Allsafe using Ollie's work ID and computer.",
+        "OriginalAirDate": "2015-07-15",
+        "USViewersMillions": 1.27
+    },
+    {
+        "Id": 5,
+        "OverallNumber": 5,
+        "SeasonNumber": 1,
+        "Title": "eps1.4_3xpl0its.wmv",
+        "DirectedBy": "Jim McKay",
+        "WrittenBy": "David Iserson",
+        "Description": "With the help of fsociety, Elliot infiltrates Steel Mountain through the use of what he calls \"human exploits\". He coincidentally meets Tyrell and uses his ego to gain access to the restricted area where he needs to connect his Raspberry Pi loaded with the program to override the climate control system and destroy E Corp's tape back-ups. Tyrell reveals he knows that Elliot framed the CTO, but will not turn him in. The Dark Army refuses to attack the back-up facility in China, which puts fsociety's plan in jeopardy. Meanwhile, Tyrell and Joanna have dinner with the CTO candidate Scott and his wife Sharon in an attempt to find their weaknesses. Tyrell approaches Sharon in the bathroom. Angela leaves Ollie after telling him she infected Allsafe with the hacker's CD, and moves in with her father. She discovers that he is deeply in debt from her mother's old medical bills. Elliot finds Shayla's phone on the floor. Fernando Vera calls him on it from prison, with the suggestion that he has organized Shayla's abduction. He blames Elliot for turning him in to the police.",
+        "OriginalAirDate": "2015-07-22",
+        "USViewersMillions": 1.38
+    },
+    {
+        "Id": 6,
+        "OverallNumber": 6,
+        "SeasonNumber": 1,
+        "Title": "eps1.5_br4ve-trave1er.asf",
+        "DirectedBy": "Deborah Chow",
+        "WrittenBy": "Kyle Bradstreet",
+        "Description": "Shayla is kidnapped by Vera's brother in order to pressure Elliot to hack Vera out of prison before he is killed on the inside. Elliot visits Vera to check on the prison's network security system, and later realizes Vera's brother arranged the inside hit. Acting CTO Scott reveals to Tyrell that his wife told him about the bathroom incident, humiliating Tyrell. After Tyrell smashes his kitchen in rage, Joanna explains that Sharon's desire to be wanted is the vulnerability they were seeking. Angela meets with lawyers in an attempt to reopen her toxic waste lawsuit against E Corp – they tell her it is impossible to win without testimony from someone on the inside. Elliot breaks Vera out of jail, and Vera immediately kills his brother. Upon Elliot's query about Shayla, Vera tosses him the keys to the car and says, \"She was with you the whole time.\" Elliot opens the trunk and finds Shayla inside with her throat slit.",
+        "OriginalAirDate": "2015-07-29",
+        "USViewersMillions": 1.25
+    },
+    {
+        "Id": 7,
+        "OverallNumber": 7,
+        "SeasonNumber": 1,
+        "Title": "eps1.6_v1ew-s0urce.flv",
+        "DirectedBy": "Sam Esmail",
+        "WrittenBy": "Kate Erickson",
+        "Description": "In a flashback, Shayla moves next door to Elliot and gives him a pet fish. She wants to be his friend despite his social awkwardness, and offers to contact a suboxone supplier for Elliot. In the present, it has been one month since Shayla's murder. Angela makes a deal: she will lie and say she broke chain of custody with the .dat file that incriminated Terry Colby, if in exchange, Colby will testify that E Corp covered up the toxic waste leak in 1993. Gideon warns Angela that her plan will put Allsafe out of business. Meanwhile, Darlene and Mr. Robot attempt to bring fsociety back together. She sets up an in-person meeting with a mysterious individual using the alias Whiterose, leader of the Dark Army. Tyrell, at a party celebrating Knowles's promotion, entices Sharon up to an isolated rooftop and strangles her while seducing her. Elliot confesses to his therapist that he hacks everybody in an attempt to find a way out of loneliness.",
+        "OriginalAirDate": "2015-08-05",
+        "USViewersMillions": 1.15
+    },
+    {
+        "Id": 8,
+        "OverallNumber": 8,
+        "SeasonNumber": 1,
+        "Title": "eps1.7_wh1ter0se.m4v",
+        "DirectedBy": "Christoph Schrewe",
+        "WrittenBy": "Randolph Leon",
+        "Description": "Darlene steals a gun, and has a conversation with Angela that implies they are longtime friends. Elliot and fsociety re-plan their attack but still need the Dark Army. Elliot meets Whiterose, a transgender woman obsessed with time, who says the Dark Army backed out because Gideon, suspicious of Elliot's story, turned E Corp's hacked server into a honeypot. With help from Darlene, Elliot shuts down the honeypot. Tyrell finds fsociety's .dat file after Gideon tells him of the honeypot and meets with Mr. Robot, and it appears that the two are working together. He reminds Mr. Robot that he knows his \"dirty little secret\" when Mr. Robot refuses to cooperate, which Mr. Robot shrugs off. When police question the Wellicks about Sharon's murder, Joanna secretly breaks her own water with a fork to distract them. Elliot tells Darlene of their plan's success, and an ecstatic Darlene tells him she loves him. He kisses Darlene, who is revolted. She asks if he \"had forgotten again\". Elliot realizes that Darlene is his sister, but he has no recollection of her. He finds a CD that contains old family photos – revealing that Mr. Robot is his father.",
+        "OriginalAirDate": "2015-08-12",
+        "USViewersMillions": 1.24
+    },
+    {
+        "Id": 9,
+        "OverallNumber": 9,
+        "SeasonNumber": 1,
+        "Title": "eps1.8_m1rr0r1ng.qt",
+        "DirectedBy": "Tricia Brock",
+        "WrittenBy": "Sam Esmail",
+        "Description": "A flashback shows a young Elliot and his father in his computer repair shop \"Mr. Robot\". After the birth of their child, Joanna tells Tyrell that he needs to keep in control if he \"wants to be part of this family\". Tyrell is fired from E Corp – his final act is to prevent Gideon from reverting the honeypot. Mr. Robot takes a trip with Elliot to his childhood home. Angry, Elliot pushes Mr. Robot out of a window and then takes him to a graveyard. Mr. Robot tells Elliot not to let Angela and Darlene \"get rid of him\", and that he will always love him. When they arrive, Elliot, alone at the grave of his father, realizes he had taken on his dead father's persona the entire time, saying \"I am Mr. Robot\". Terry Colby offers Angela a job at E Corp. Elliot now doubts the continuation of his Mr. Robot/fsociety plan. Tyrell threatens Elliot about fsociety's plan – Elliot takes Tyrell to the arcade and understands that he will carry on with the hack. They agree to work together, but Elliot glances over to the popcorn machine where Darlene's gun is hidden.",
+        "OriginalAirDate": "2015-08-19",
+        "USViewersMillions": 1.32
+    },
+    {
+        "Id": 10,
+        "OverallNumber": 10,
+        "SeasonNumber": 1,
+        "Title": "eps1.9_zer0-day.avi",
+        "DirectedBy": "Sam Esmail",
+        "WrittenBy": "Sam Esmail",
+        "Description": "Elliot's psychiatrist meets her former boyfriend, whom Elliot hacked and forced to break up with her. He tries to persuade her to help the police arrest Elliot, but she refuses. Elliot wakes up alone in Tyrell's SUV three days after the conclusion of the previous episode, with no memory of those two days. The fsociety hack succeeded, throwing the world into chaos and gathering cheering crowds throughout the city. fsociety encrypts their data and covers their tracks. E Corp is readying an emergency television interview. The E Corp EVP of Technology commits suicide on TV after stating that the situation is hopeless. Elliot talks to Mr. Robot again and asks about Tyrell's location. He visits Tyrell's address but finds only Joanna, introducing himself as \"Ollie\". The episode ends with Elliot opening his apartment door; the visitor is not seen. In a post-credits scene, Whiterose, dressed as a man, and Phillip Price, the CEO of E Corp, are shown conversing at a formal event where Price indicates he \"knows who's responsible\".",
+        "OriginalAirDate": "2015-09-02",
+        "USViewersMillions": 1.21
+    }
+]
